@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f4f4f4;
+    padding: 20px;
+}
+
+.dashboard-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.dashboard-container h1 {
+    text-align: center;
+    color: #004080;
+}
+
+.info {
+    margin: 20px 0;
+}
+
+.info h2 {
+    color: #0066cc;
+    margin-bottom: 10px;
+}
+
+.logout-btn {
+    display: block;
+    text-align: center;
+    background: #ff4d4d;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.logout-btn:hover {
+    background: #cc0000;
+}

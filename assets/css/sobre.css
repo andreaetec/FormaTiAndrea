@@ -1,0 +1,75 @@
+/* Estilo para a página Sobre */
+.sobre-container {
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 0 15px;
+    font-family: Arial, sans-serif;
+}
+
+.sobre-container h1 {
+    text-align: center;
+    color: #004080;
+    margin-bottom: 20px;
+}
+
+.sobre-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+}
+
+.sobre-texto {
+    flex: 1;
+    color: #333;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+.sobre-texto p {
+    margin-bottom: 15px;
+}
+
+.sobre-imagem {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.sobre-imagem img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+footer {
+    background: linear-gradient(90deg, #0066cc, #004080); /* Mesmo fundo do header */
+    color: #ffffff;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 14px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px; /* Espaço entre o conteúdo e o footer */
+}
+
+footer p {
+    margin: 0;
+    font-style: italic;
+    opacity: 0.8;
+}
+/* Responsividade */
+@media (max-width: 768px) {
+    .sobre-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .sobre-imagem img {
+        max-width: 100%;
+    }
+}
